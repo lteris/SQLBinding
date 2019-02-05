@@ -2,17 +2,11 @@
 
 #include "SQLiteStatement.h"
 
-//---------------------------------------------------------------------------------------
-// CLASS DECLARATION
-//---------------------------------------------------------------------------------------
 /// This is a dummy type that is used to mark the end of typelists.
 class null_type
 {
 };
 
-//---------------------------------------------------------------------------------------
-// CLASS DECLARATION
-//---------------------------------------------------------------------------------------
 /// SQLParameterPack delares a list of parameters that will be passed to a query for bind
 /// and column get operations.
 /// It contains references to the objects that are bound or used to return values so it is

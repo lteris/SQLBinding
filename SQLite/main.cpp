@@ -1,7 +1,7 @@
 #include "SQLiteQuery.h"
 
 
-static int test_query()
+int main()
 {
     int val1, val2, valo1;
     std::string str, stro;

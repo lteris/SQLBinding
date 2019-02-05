@@ -1,11 +1,11 @@
 #pragma once
 
-#include "SysSingleLock.h"
+#include "SysLock.h"
 
 #include <string>
 #include <vector>
 
-#include "../../sqlite/sqlite3.h"
+#include "../sqlite/sqlite3.h"
 
 
 class SQLiteStatement
@@ -36,6 +36,6 @@ public:
 
 private:
     sqlite3_stmt *mStatement;
-    CoreLib::SysSingleLock mRunLock;
+    System::SysLock mRunLock;
     std::string mStatementText;
 };
